@@ -19,9 +19,9 @@ export default function ProductPreviewCardComponent() {
         </picture>
         <div className={styles["card__body"]}>
           <div className={styles["card__label"]}>PERFUME</div>
-          <h1 className={styles["card__title"]}>
+          <h2 className={styles["card__title"]}>
             Gabrielle Essence Eau De Parfum
-          </h1>
+          </h2>
           <p className={styles["card__text"]}>
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.

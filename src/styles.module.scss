@@ -1,6 +1,9 @@
-.grid{
+.grid {
   display: grid;
+  //padding: 2rem 6rem;
+  width: 800px;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem 1rem;
-  place-items: center;
+
+  justify-items: center;
 }

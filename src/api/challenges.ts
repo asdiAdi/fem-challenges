@@ -1,22 +1,23 @@
 // TODO: Real backend api and axios integration
 
-export type DataType = {
+export type Challenge = {
   id: string;
   title: string;
   thumbnail: string;
+  badges: string[];
 };
 
-const data: DataType[] = [
+export const tempData: Challenge[] = [
   {
     id: "0001",
     title: "Product Preview Card Component",
     thumbnail: "product-preview-card-component.jpg",
+    badges: ["HTML", "CSS"],
   },
 ];
 
-export const initDataType: DataType[] = [];
-export const getChallenges = async (): Promise<DataType[]> => {
+export const getChallenges = async (): Promise<Challenge[]> => {
   return new Promise((resolve) => {
-    resolve(data);
+    resolve(tempData);
   });
 };

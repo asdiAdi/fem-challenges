@@ -1,0 +1,20 @@
+@use "src/variables";
+
+.card {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+.body {
+  padding: 1.5rem;
+}
+
+.title {
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
